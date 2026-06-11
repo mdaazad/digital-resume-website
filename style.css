@@ -1,3 +1,7 @@
+* {
+    box-sizing: border-box;
+}
+
 body {
     margin: 0;
     font-family: Arial, sans-serif;
@@ -330,4 +334,13 @@ footer {
 
 .project-card h2 {
     font-size: 38px;
+}
+
+
+a:focus,
+button:focus,
+input:focus,
+textarea:focus {
+    outline: 3px solid #60a5fa;
+    outline-offset: 3px;
 }
